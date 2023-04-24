@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TinyWebAssistant</title>
+</head>
+<body>
+    <div class="viewpage-scroll-wrapper" id="viewPageScrollWrapper">
+        <div class="ct-view-page  ">
+            <div class="document-editor">
+                <div class="ct-editor-wrapper">
+                    <div id="pm-body-wrapper" class="pm-body-wrapper">
+                        <p data-node-id="0110614adc4a4dfd86633f98320ff888"
+                            data-diff-id="ct-diff-id-d9ff20aa-ef41-4b8e-b237-09ab989b29aa"><a
+                                data-node-id="633a4541d63e4d02865348683dbcc0ba" data-auto_update="0"
+                                href="https://greasyfork.org/zh-CN/scripts/464637-tiny-web-assistant" class="ct-link"
+                                target="_blank" rel="noopener">Tiny Web Assistant (greasyfork.org)</a></p>
+                        <div data-node-id="848d105a702b4f459932c300275d399c"
+                            data-diff-id="ct-diff-id-aebc7333-8230-4f46-b0ef-6b2a89cfb673" data-style="none"
+                            class="ct-edit-catalog">
+                            <div>
+                                <div class="ct-edit-catalog ct-view-catalog">
+                                    <div class="title">目录</div>
+                                    <div>
+                                        <div class="indent-0 link-wrapper"><a class="link" href="#id-简介">简介</a></div>
+                                        <div class="indent-1 link-wrapper"><a class="link" href="#id-安装方法">安装方法</a></div>
+                                        <div class="indent-1 link-wrapper"><a class="link" href="#id-玩法">玩法</a></div>
+                                        <div class="indent-1 link-wrapper"><a class="link"
+                                                href="#id-进阶使用（一定要看）">进阶使用（一定要看）</a></div>
+                                        <div class="indent-1 link-wrapper"><a class="link" href="#id-已知问题">已知问题</a></div>
+                                        <div class="indent-1 link-wrapper"><a class="link" href="#id-ReleaseNote">Release
+                                                Note</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 data-node-id="843a5fe8a48e4a83b87916757c518d52"
+                            data-diff-id="ct-diff-id-a2581837-d84f-4dab-a023-098b70da4a44" class="ct-heading" id="id-简介">简介
+                        </h3>
+                        <p data-node-id="805c41a5f72c4a1d8ad34127e6e1ff54"
+                            data-diff-id="ct-diff-id-50ccde5a-ea75-413a-9440-8f15f3862afe">
+                            提供了一个“存在感很强”的网页助手，可以和chatgpt沟通交流，并基于页面上的资料进行提问分析</p>
+                        <p data-node-id="06dea2795b5941d0a7f46ad062ac407f"
+                            data-diff-id="ct-diff-id-544d2432-2820-4aeb-b21c-6af3112617da">试试效果</p>
+                        <p data-node-id="5e99982c57354ab2aa51195117e38394"
+                            data-diff-id="ct-diff-id-1d8271b5-72e9-4e12-a362-2d11124c992a"><span class="block-wrapper"
+                                block-type="ct-image">
+                                <div class="block-wrapper-toolbar" style="display: none;">
+                                    <div class="toolbar-item"><svg class="icon" viewBox="0 0 1024 1024"
+                                            xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                                            <path
+                                                d="M213.33 320v513.75h469.34V320H213.33zm533.34-43v598a21.16 21.16 0 0 1-21.34 21H170.67c-11.78 0-21.34-9.39-21.34-21V277a21.16 21.16 0 0 1 21.34-21h554.66c11.78 0 21.34 9.39 21.34 21zm64-85h-384v-64h426.66a21.33 21.33 0 0 1 21.34 21.33v533.34h-64V192z"
+                                                fill="#212121"></path>
+                                        </svg></div>
+                                </div><span style="width: 472px;"
+                                    class="ct-image ct-image-container ct-image-container-success"><img data-height="409"
+                                        data-width="472"                                    
+                                        class="ct-img-mask" width="472"
+                                        src="pic/p1.png"></span>
+                            </span></p>
+                        <h4 data-node-id="502a16ba29344ce4a66060c04b043f86"
+                            data-diff-id="ct-diff-id-38465173-3b86-4b77-b88c-33f47173dbef" class="ct-heading" id="id-安装方法">
+                            安装方法</h4>
+                        <ol data-node-id="a9a88f7028f9490eb0486637591e1e94"
+                            data-diff-id="ct-diff-id-979d628d-6c51-414d-a515-f250381a92f7">
+                            <li data-list-item-diff-id="ct-list-item-diff-id-475ec8ca-fa36-4d8e-84ae-3ddffac92cff">
+                                <p data-node-id="4893b9c16d3748fab498fd15436e90b3"
+                                    data-diff-id="ct-diff-id-7735dc4b-f998-4d31-b182-2fb186cfe9e9">
+                                    这个插件依赖大名鼎鼎的“油猴”，首先安装它的chrome版本(兼容edge)：<a
+                                        data-node-id="84ea73fcc13444a2b2065590f26534d1" data-auto_update="0"
+                                        href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo"
+                                        class="ct-link" target="_blank" rel="noopener">Tampermonkey - Chrome 应用商店
+                                        (google.com)</a>，当然也可以选择Firefox</p>
+                            </li>
+                            <li data-list-item-diff-id="ct-list-item-diff-id-60beb3e3-77b3-428d-97c0-070ed04642a9">
+                                <p data-node-id="ae2f27d154694384a5ef81f3d0562033"
+                                    data-diff-id="ct-diff-id-acf805b8-f1db-4d69-9e13-d20200ddbc13">打开<a
+                                        data-node-id="54e03a3036e3417f86251f79415faca7" data-auto_update="0"
+                                        href="https://greasyfork.org/zh-CN/scripts/464637-tiny-web-assistant"
+                                        class="ct-link" target="_blank" rel="noopener">Tiny Web Assistant
+                                        (greasyfork.org)</a>，点击安装</p>
+                            </li>
+                        </ol>
+                        <h4 data-node-id="ccd2322846164dca894c4ab9956bcde9"
+                            data-diff-id="ct-diff-id-866e6550-e0bc-4125-870b-e98ffbf93030" class="ct-heading" id="id-玩法">玩法
+                        </h4>
+                        <ol data-node-id="9161eb05ba854fb28606bdd6954a265f"
+                            data-diff-id="ct-diff-id-1d725681-a9ad-4746-b5a9-1b3451ba007e">
+                            <li data-list-item-diff-id="ct-list-item-diff-id-16db20d0-723d-4836-ab04-c477ffb83281">
+                                <p data-node-id="a979ce4be21142e4936e822eae63a706"
+                                    data-diff-id="ct-diff-id-f2cbb469-a46b-4fe0-91bc-323656fc2557">打开一个网站，右上角会出现浮动条</p>
+                                <p data-node-id="d159737c37b44386af93f755c4db2e2d"
+                                    data-diff-id="ct-diff-id-6f8fa2ff-4633-4a51-89c4-5dda4b186657"><span
+                                        class="block-wrapper" block-type="ct-image">
+                                        <div class="block-wrapper-toolbar">
+                                            <div class="toolbar-item"><svg class="icon" viewBox="0 0 1024 1024"
+                                                    xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                                                    <path
+                                                        d="M213.33 320v513.75h469.34V320H213.33zm533.34-43v598a21.16 21.16 0 0 1-21.34 21H170.67c-11.78 0-21.34-9.39-21.34-21V277a21.16 21.16 0 0 1 21.34-21h554.66c11.78 0 21.34 9.39 21.34 21zm64-85h-384v-64h426.66a21.33 21.33 0 0 1 21.34 21.33v533.34h-64V192z"
+                                                        fill="#212121"></path>
+                                                </svg></div>
+                                        </div><span style="width: 179px;"
+                                            class="ct-image ct-image-container ct-image-container-success"><img
+                                                data-height="55" data-width="179"
+                                                class="ct-img-mask" width="179"
+                                                src="pic/p2.png"></span>
+                                    </span></p>
+                            </li>
+                            <li data-list-item-diff-id="ct-list-item-diff-id-105ad5c6-ceb3-4873-a5d0-a01996258385">
+                                <p data-node-id="65292ea6a7db496fbeb1bbfe3acbe47f"
+                                    data-diff-id="ct-diff-id-f5470aad-e2b9-46ad-8469-6411869edbf3">点击浮动条里的“+”可以展开面板</p>
+                                <p data-node-id="cb97f882129c4a28b0578afd441bd714"
+                                    data-diff-id="ct-diff-id-1d3a4f40-7992-4016-8d35-85ebd53da3b9"><span
+                                        class="block-wrapper" block-type="ct-image">
+                                        <div class="block-wrapper-toolbar">
+                                            <div class="toolbar-item"><svg class="icon" viewBox="0 0 1024 1024"
+                                                    xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                                                    <path
+                                                        d="M213.33 320v513.75h469.34V320H213.33zm533.34-43v598a21.16 21.16 0 0 1-21.34 21H170.67c-11.78 0-21.34-9.39-21.34-21V277a21.16 21.16 0 0 1 21.34-21h554.66c11.78 0 21.34 9.39 21.34 21zm64-85h-384v-64h426.66a21.33 21.33 0 0 1 21.34 21.33v533.34h-64V192z"
+                                                        fill="#212121"></path>
+                                                </svg></div>
+                                        </div><span style="width: 324px;"
+                                            class="ct-image ct-image-container ct-image-container-success"><img
+                                                data-height="136" data-width="324"
+                                                class="ct-img-mask" width="324"
+                                                src="pic/p3.png"></span>
+                                    </span></p>
+                            </li>
+                            <li data-list-item-diff-id="ct-list-item-diff-id-64e2d522-7f45-4224-bc6c-0ab5b7328956">
+                                <p data-node-id="d362c67df0904527b2532b0f7ef8e6b7"
+                                    data-diff-id="ct-diff-id-0068db0f-2382-4d08-baf4-57e68602e214">然后随便点击一条提示，或者自己提一个问题</p>
+                                <p data-node-id="ef00f8c604264682b425d2e824833c6e"
+                                    data-diff-id="ct-diff-id-41020862-d54c-4b06-9b67-b868a19dcc21"><span
+                                        class="block-wrapper" block-type="ct-image">
+                                        <div class="block-wrapper-toolbar">
+                                            <div class="toolbar-item"><svg class="icon" viewBox="0 0 1024 1024"
+                                                    xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                                                    <path
+                                                        d="M213.33 320v513.75h469.34V320H213.33zm533.34-43v598a21.16 21.16 0 0 1-21.34 21H170.67c-11.78 0-21.34-9.39-21.34-21V277a21.16 21.16 0 0 1 21.34-21h554.66c11.78 0 21.34 9.39 21.34 21zm64-85h-384v-64h426.66a21.33 21.33 0 0 1 21.34 21.33v533.34h-64V192z"
+                                                        fill="#212121"></path>
+                                                </svg></div>
+                                        </div><span style="width: 328px;"
+                                            class="ct-image ct-image-container ct-image-container-success"><img
+                                                data-height="142" data-width="328"
+                                                class="ct-img-mask" width="328"
+                                                src="pic/p4.png"></span>
+                                    </span></p>
+                            </li>
+                            <li data-list-item-diff-id="ct-list-item-diff-id-dbb7955f-a606-4891-996c-40b806957943">
+                                <p data-node-id="2a23eb7699b64602807e2b28b65e0035"
+                                    data-diff-id="ct-diff-id-787a45c9-ee52-4655-b231-0958dc308d5c">
+                                    点击右侧“🚀”即可以开始分析，如果没有配置openai key会提醒配置，配置一个正确的openai key即可</p>
+                                <p data-node-id="f60b1a83153346f085abc569f46484c6"
+                                    data-diff-id="ct-diff-id-f481a0c8-1560-40a6-9ec1-bc2e91e7fc1d"><span
+                                        class="block-wrapper" block-type="ct-image">
+                                        <div class="block-wrapper-toolbar">
+                                            <div class="toolbar-item"><svg class="icon" viewBox="0 0 1024 1024"
+                                                    xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                                                    <path
+                                                        d="M213.33 320v513.75h469.34V320H213.33zm533.34-43v598a21.16 21.16 0 0 1-21.34 21H170.67c-11.78 0-21.34-9.39-21.34-21V277a21.16 21.16 0 0 1 21.34-21h554.66c11.78 0 21.34 9.39 21.34 21zm64-85h-384v-64h426.66a21.33 21.33 0 0 1 21.34 21.33v533.34h-64V192z"
+                                                        fill="#212121"></path>
+                                                </svg></div>
+                                        </div><span style="width: 328px;"
+                                            class="ct-image ct-image-container ct-image-container-success"><img
+                                                data-height="120" data-width="328"
+                                                class="ct-img-mask" width="328"
+                                                src="pic/p5.png"></span>
+                                    </span></p>
+                            </li>
+                            <li data-list-item-diff-id="ct-list-item-diff-id-01ce5189-dc25-4d9a-b6d1-7776b051445e">
+                                <p data-node-id="31cfac207c89434f906d48c9b317e6f8"
+                                    data-diff-id="ct-diff-id-88d7c5b1-0e38-4bcd-8472-5d06a39a8428">
+                                    如果首次使用，会提醒需要允许访问openai的域名，在弹窗里点击“总是允许”即可</p>
+                                <p data-node-id="5bf42a621b004dd382dbb1608f9ca6e2"
+                                    data-diff-id="ct-diff-id-f55e3610-0db8-4eed-997d-1b8922e19c1f"><span
+                                        class="block-wrapper" block-type="ct-image">
+                                        <div class="block-wrapper-toolbar" style="display: none;">
+                                            <div class="toolbar-item"><svg class="icon" viewBox="0 0 1024 1024"
+                                                    xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                                                    <path
+                                                        d="M213.33 320v513.75h469.34V320H213.33zm533.34-43v598a21.16 21.16 0 0 1-21.34 21H170.67c-11.78 0-21.34-9.39-21.34-21V277a21.16 21.16 0 0 1 21.34-21h554.66c11.78 0 21.34 9.39 21.34 21zm64-85h-384v-64h426.66a21.33 21.33 0 0 1 21.34 21.33v533.34h-64V192z"
+                                                        fill="#212121"></path>
+                                                </svg></div>
+                                        </div><span style="width: 459px;"
+                                            class="ct-image ct-image-container ct-image-container-success"><img
+                                                data-height="210" data-width="459"
+                                                class="ct-img-mask" width="459"
+                                                src="pic/p6.png"></span>
+                                    </span></p>
+                            </li>
+                        </ol>
+                        <h4 data-node-id="7bd9667af60442f1a3906159d6cc6b98"
+                            data-diff-id="ct-diff-id-15acebb4-df87-45ad-96b6-0512c463e375" class="ct-heading"
+                            id="id-进阶使用（一定要看）">进阶使用（一定要看）</h4>
+                        <ol data-node-id="26762ea2c93a40ef93df0ad5f80bd477"
+                            data-diff-id="ct-diff-id-b0df940b-54b9-4eab-8dbd-cf1aaca409e0">
+                            <li data-list-item-diff-id="ct-list-item-diff-id-4ddc84ac-6f8c-4970-9add-afcbd98aae81">
+                                <p data-node-id="c9fc77815d7f492493b3a8a4c97f0a83"
+                                    data-diff-id="ct-diff-id-be05fc70-6ba6-43a9-becc-280bbfe13818">
+                                    如果没有好的翻墙环境，可以点击🔗按钮，设置openai API服务的反向代理（需要自己搭建或者在网上搜索），在美团内网，可以配置为 <a
+                                        data-node-id="8395f3bd85624dadbd7df0a394a8df97" data-auto_update="0"
+                                        href="http://openai.xlvecle.com/" class="ct-link" target="_blank"
+                                        rel="noopener">http://openai.xlvecle.com/</a> </p>
+                                <p data-node-id="d439a83292414e13813dc411b727cf3b"
+                                    data-diff-id="ct-diff-id-d0bd7665-2b1d-4435-853b-b4518c85c96e"><span
+                                        class="block-wrapper" block-type="ct-image">
+                                        <div class="block-wrapper-toolbar">
+                                            <div class="toolbar-item"><svg class="icon" viewBox="0 0 1024 1024"
+                                                    xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                                                    <path
+                                                        d="M213.33 320v513.75h469.34V320H213.33zm533.34-43v598a21.16 21.16 0 0 1-21.34 21H170.67c-11.78 0-21.34-9.39-21.34-21V277a21.16 21.16 0 0 1 21.34-21h554.66c11.78 0 21.34 9.39 21.34 21zm64-85h-384v-64h426.66a21.33 21.33 0 0 1 21.34 21.33v533.34h-64V192z"
+                                                        fill="#212121"></path>
+                                                </svg></div>
+                                        </div><span style="width: 311px;"
+                                            class="ct-image ct-image-container ct-image-container-success"><img
+                                                data-height="113" data-width="311"
+                                                class="ct-img-mask" width="311"
+                                                src="pic/p7.png"></span>
+                                    </span></p>
+                            </li>
+                            <li data-list-item-diff-id="ct-list-item-diff-id-0a7d806a-e9bc-45f1-b49e-9b0e24463675">
+                                <p data-node-id="b7c5c829155648019d280895bcc23160"
+                                    data-diff-id="ct-diff-id-08494748-72de-458b-9592-eac73d674a6d">
+                                    默认分析的对象是整个网页，网页上的内容如此多以至于会有很多脏信息，用这个网页作为案例：<a
+                                        data-node-id="d6186f23da9e4e18a7808afc1467eab2" data-auto_update="0"
+                                        href="https://www.toutiao.com/article/7224961105070653984/?log_from=b1d5d815a9265_1682215687164"
+                                        class="ct-link" target="_blank" rel="noopener">SpaceX星际飞船发射后 发射台就像被炸弹炸过-今日头条
+                                        (toutiao.com)</a> </p>
+                                <p data-node-id="5bb457462a80427193445cb8797cf222"
+                                    data-diff-id="ct-diff-id-4285a469-8b3b-44cf-a52c-bad50af3a29d">
+                                    这个网站除了主体的新闻，还有侧边栏的热点等信息，直接分析容易造成干扰</p>
+                                <p data-node-id="df1deeee288046309125595b0b16d7da"
+                                    data-diff-id="ct-diff-id-d619eee1-58f1-4fb9-bafb-a4727db32dc8"><span
+                                        class="block-wrapper" block-type="ct-image">
+                                        <div class="block-wrapper-toolbar" style="display: none;">
+                                            <div class="toolbar-item"><svg class="icon" viewBox="0 0 1024 1024"
+                                                    xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                                                    <path
+                                                        d="M213.33 320v513.75h469.34V320H213.33zm533.34-43v598a21.16 21.16 0 0 1-21.34 21H170.67c-11.78 0-21.34-9.39-21.34-21V277a21.16 21.16 0 0 1 21.34-21h554.66c11.78 0 21.34 9.39 21.34 21zm64-85h-384v-64h426.66a21.33 21.33 0 0 1 21.34 21.33v533.34h-64V192z"
+                                                        fill="#212121"></path>
+                                                </svg></div>
+                                        </div><span style="width: 395px;"
+                                            class="ct-image ct-image-container ct-image-container-success"><img
+                                                data-height="210" data-width="395"
+                                                class="ct-img-mask" width="395"
+                                                src="pic/p8.png"></span>
+                                    </span></p>
+                                <p data-node-id="87e26fffed3c4d32a299c1a2e6ba14f7"
+                                    data-diff-id="ct-diff-id-0ff50d65-19f4-42eb-b07b-c373791d0e98">
+                                    这种情况下我们需要设置选择器来缩小目标区域，点击“<span
+                                        style="color: rgb(206, 145, 120)">🎯</span>”即可开始，可以配置一个HTML选择器“.article-content”（这里支持的是<a
+                                        data-node-id="91cebeb5a2d74faf9f2da7dd9c771c30" data-auto_update="0"
+                                        href="https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll"
+                                        class="ct-link" target="_blank" rel="noopener">Document: querySelectorAll() method -
+                                        Web APIs | MDN (mozilla.org)</a>）</p>
+                                <p data-node-id="f448a329419f4e159362b267fe2e2d23"
+                                    data-diff-id="ct-diff-id-9786eacb-0006-4f62-9c40-32e07c353af4"><span
+                                        class="block-wrapper" block-type="ct-image">
+                                        <div class="block-wrapper-toolbar">
+                                            <div class="toolbar-item"><svg class="icon" viewBox="0 0 1024 1024"
+                                                    xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                                                    <path
+                                                        d="M213.33 320v513.75h469.34V320H213.33zm533.34-43v598a21.16 21.16 0 0 1-21.34 21H170.67c-11.78 0-21.34-9.39-21.34-21V277a21.16 21.16 0 0 1 21.34-21h554.66c11.78 0 21.34 9.39 21.34 21zm64-85h-384v-64h426.66a21.33 21.33 0 0 1 21.34 21.33v533.34h-64V192z"
+                                                        fill="#212121"></path>
+                                                </svg></div>
+                                        </div><span style="width: 423px;"
+                                            class="ct-image ct-image-container ct-image-container-success"><img
+                                                data-height="133" data-width="423"
+                                                class="ct-img-mask" width="423"
+                                                src="pic/p9.png"></span>
+                                    </span></p>
+                                <p data-node-id="b8633e581f6a486693a161421406e83a"
+                                    data-diff-id="ct-diff-id-8991063a-d008-4f99-bfbf-9a0d38df7672">设置完之后就可以针对性提问了</p>
+                                <p data-node-id="6de90cb9cfe34f0f81854a7bdd393be8"
+                                    data-diff-id="ct-diff-id-b48e30fa-4582-46e0-892d-79e1a60a5a47"><span
+                                        class="block-wrapper" block-type="ct-image">
+                                        <div class="block-wrapper-toolbar" style="display: none;">
+                                            <div class="toolbar-item"><svg class="icon" viewBox="0 0 1024 1024"
+                                                    xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                                                    <path
+                                                        d="M213.33 320v513.75h469.34V320H213.33zm533.34-43v598a21.16 21.16 0 0 1-21.34 21H170.67c-11.78 0-21.34-9.39-21.34-21V277a21.16 21.16 0 0 1 21.34-21h554.66c11.78 0 21.34 9.39 21.34 21zm64-85h-384v-64h426.66a21.33 21.33 0 0 1 21.34 21.33v533.34h-64V192z"
+                                                        fill="#212121"></path>
+                                                </svg></div>
+                                        </div><span style="width: 386px;"
+                                            class="ct-image ct-image-container ct-image-container-success"><img
+                                                data-height="340" data-width="386"
+                                                class="ct-img-mask" width="386"
+                                                src="pic/p10.png"></span>
+                                    </span></p>
+                            </li>
+                            <li data-list-item-diff-id="ct-list-item-diff-id-a43bf340-6e9d-484d-9326-4ce2ff64123b">
+                                <p data-node-id="3f63519c2f294c53801bb68c6d8cd5c4"
+                                    data-diff-id="ct-diff-id-be134c84-c4c5-4a10-865b-e8c18b5d4925">另外左下角还有剪贴板可以复制输出信息</p>
+                            </li>
+                            <li data-list-item-diff-id="ct-list-item-diff-id-1dd56ac6-dd06-44d8-a59e-e15171806a08">
+                                <p data-node-id="ff0829a267b2410c97bf3cffb6b59dc9"
+                                    data-diff-id="ct-diff-id-aa4c645d-88b0-44a9-ae1a-c41f52673da4">“我不想在每个网站上看到这个助手，怎么办？”
+                                </p>
+                                <p data-node-id="9dfa1aa38adf4aa8abd991e3ade17acc"
+                                    data-diff-id="ct-diff-id-76a648a6-953c-4085-8198-7bddad874084">
+                                    点击Tampermonkey图标打开管理面板，编辑TinyWebAssisttant脚本</p>
+                                <p data-node-id="1a8ec084e5cf4182986cad96e0e260c8"
+                                    data-diff-id="ct-diff-id-62db8f97-9242-452a-9030-832b468b6a7a"><span
+                                        class="block-wrapper" block-type="ct-image">
+                                        <div class="block-wrapper-toolbar" style="display: none;">
+                                            <div class="toolbar-item"><svg class="icon" viewBox="0 0 1024 1024"
+                                                    xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                                                    <path
+                                                        d="M213.33 320v513.75h469.34V320H213.33zm533.34-43v598a21.16 21.16 0 0 1-21.34 21H170.67c-11.78 0-21.34-9.39-21.34-21V277a21.16 21.16 0 0 1 21.34-21h554.66c11.78 0 21.34 9.39 21.34 21zm64-85h-384v-64h426.66a21.33 21.33 0 0 1 21.34 21.33v533.34h-64V192z"
+                                                        fill="#212121"></path>
+                                                </svg></div>
+                                        </div><span style="width: 160px;"
+                                            class="ct-image ct-image-container ct-image-container-success"><img
+                                                data-height="149" data-width="160"
+                                                class="ct-img-mask" width="160"
+                                                src="pic/p11.png"></span>
+                                    </span></p>
+                                <p data-node-id="84a7c7b245764c0f850dbf803320dacb"
+                                    data-diff-id="ct-diff-id-6b771166-561d-4280-8a1a-04c76acc0d42">
+                                    在设置里把“原始匹配”取消勾选，添加特定的用户匹配，例如头条新闻：*://*.toutiao.com/* 然后就可以只在这些网站生效了
+                                </p>
+                                <p data-node-id="110db97bdf544c91b57a0c4ec4e546e9"
+                                    data-diff-id="ct-diff-id-ba458e53-f670-4742-868e-c4dd444fe663"><span
+                                        class="block-wrapper" block-type="ct-image">
+                                        <div class="block-wrapper-toolbar" style="display: none;">
+                                            <div class="toolbar-item"><svg class="icon" viewBox="0 0 1024 1024"
+                                                    xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                                                    <path
+                                                        d="M213.33 320v513.75h469.34V320H213.33zm533.34-43v598a21.16 21.16 0 0 1-21.34 21H170.67c-11.78 0-21.34-9.39-21.34-21V277a21.16 21.16 0 0 1 21.34-21h554.66c11.78 0 21.34 9.39 21.34 21zm64-85h-384v-64h426.66a21.33 21.33 0 0 1 21.34 21.33v533.34h-64V192z"
+                                                        fill="#212121"></path>
+                                                </svg></div>
+                                        </div><span style="width: 560px;"
+                                            class="ct-image ct-image-container ct-image-container-success"><img
+                                                data-height="114" data-width="560"
+                                                class="ct-img-mask" width="560"
+                                                src="pic/p12.png"></span>
+                                    </span></p>
+                            </li>
+                        </ol>
+                        <h4 data-node-id="c85acc515e3748fb969e4fe154fd8e23"
+                            data-diff-id="ct-diff-id-436aa03f-faf7-4ed4-86e5-27f6360d392f" class="ct-heading" id="id-已知问题">
+                            已知问题</h4>
+                        <ol data-node-id="e32cf78ade93461c86fcb60498a05146"
+                            data-diff-id="ct-diff-id-f0a30290-f027-4a1b-8e88-3978eab77c4b">
+                            <li data-list-item-diff-id="ct-list-item-diff-id-e42a0214-5e25-4a7f-a9e1-3a7acf089fa0">
+                                <p data-node-id="f9863f67f9b0414bbc67dbabc0f02d86"
+                                    data-diff-id="ct-diff-id-e1761e37-9309-4d72-956e-462e910d41fc">不支持连续对话</p>
+                            </li>
+                            <li data-list-item-diff-id="ct-list-item-diff-id-d7371a98-114c-45d1-8f14-d82bba590bc3">
+                                <p data-node-id="5b94dfce25694fb08b82966e4778f8be"
+                                    data-diff-id="ct-diff-id-816d4dd2-30d9-44a9-8200-d549535658b2">
+                                    网页上的文本内容太多了，容易超出chatgpt容量限制，所以现在对于内容太多的网页会做机械拆分（均匀分割），然后分段进行分析</p>
+                            </li>
+                        </ol>
+                        <h4 data-node-id="06dcffed5e394d07a29535c04d67a08b"
+                            data-diff-id="ct-diff-id-948509f2-7d52-430a-be7f-d4dd0107a790" class="ct-heading"
+                            id="id-ReleaseNote">Release Note</h4>
+                        <p data-node-id="ba55382c26ae43f6a4383fd96826b4bf"
+                            data-diff-id="ct-diff-id-5672124c-681b-402d-b938-e2435844b9df">---</p>
+                        <p data-diff-id="ct-diff-id-ec6d5b0c-1be0-49f8-9e68-0666519e2c52"></p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+</body>
+</html>
